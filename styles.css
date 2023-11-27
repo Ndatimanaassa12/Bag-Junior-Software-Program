@@ -5,8 +5,9 @@ body {
 
 .container {
     max-width: 600px;
+    max-height: 1000px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -21,6 +22,12 @@ input {
 button {
     padding: 8px;
     cursor: pointer;
+    border-radius: 15px;
+    background-color: azure;
+}
+button:hover{
+    transition: 0.3;
+    background-color: #1d52b3;
 }
 
 .task {
@@ -40,6 +47,6 @@ button {
 }
 
 .task.important {
-    background-color: #e6edff;
+    background-color: #e6fffd;
     border-left: 4px solid #72abc3;
 }
